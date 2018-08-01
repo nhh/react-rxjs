@@ -1,6 +1,6 @@
 import NotificationEvent from './NotificationEvent';
 
-export default class NotificationEventSender {
+export default class NotificationEventDispatcher {
 
     dispatch(event) {
         return NotificationEvent.event.next(event);

@@ -1,7 +1,7 @@
 import {Subject} from "rxjs";
 
 class NotificationEvent {
-    event = new Subject();
+  event = new Subject();
 }
 
 // Singleton

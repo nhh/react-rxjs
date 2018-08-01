@@ -2,7 +2,7 @@ import NotificationEvent from './NotificationEvent';
 
 export default class NotificationEventReceiver {
 
-    event() {
+    receive() {
         return NotificationEvent.event.asObservable();
     }
 
